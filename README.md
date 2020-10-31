@@ -20,7 +20,7 @@ The data is organized in the following manner:
 
 This leads to: 10 × 2 × 2 × 2 × 2 × 3 × 3 × 8 = 11520 recordings
 
-The hardware used is a Seeed ReSpeaker [USB Mic Array](https://www.seeedstudio.com/ReSpeaker-USB-Mic-Array-p-4247.html)[wiki here](https://wiki.seeedstudio.com/ReSpeaker-USB-Mic-Array/)) flashed with the 6 channel, 48kHz sampling frequency (specified as "48k_6_channels_firmware.bin". Here channel 0 is processed audio for ASR, channel 1-4 are the 4 microphones' raw data and channel 5 is playback（factory firmware).
+The hardware used is a Seeed ReSpeaker [USB Mic Array](https://www.seeedstudio.com/ReSpeaker-USB-Mic-Array-p-4247.html) ([wiki here](https://wiki.seeedstudio.com/ReSpeaker-USB-Mic-Array/)) flashed with the 6 channel, 48kHz sampling frequency (specified as "48k_6_channels_firmware.bin". Here channel 0 is processed audio for ASR, channel 1-4 are the 4 microphones' raw data and channel 5 is playback（factory firmware).
 
 The data is organized as follows:
 
