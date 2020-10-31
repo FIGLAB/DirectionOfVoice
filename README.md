@@ -5,6 +5,8 @@ Link to the dataset: https://www.dropbox.com/s/gtw7o0nj0h7j4gy/subjectrecording.
 
 ## Dataset Description
 
+<img align="right" width="325" height="300" src="https://karan-ahuja.com/assets/docs/paper/DoVDataCollection.png">
+
 The data is organized in the following manner:
 
 * 10 participants (s1 to s10)
@@ -18,7 +20,7 @@ The data is organized in the following manner:
 
 This leads to: 10 × 2 × 2 × 2 × 2 × 3 × 3 × 8 = 11520 recordings
 
-The hardware used is a Seeed ReSpeaker USB Mic Array (https://www.seeedstudio.com/ReSpeaker-USB-Mic-Array-p-4247.html [wiki here](https://wiki.seeedstudio.com/ReSpeaker-USB-Mic-Array/)) flashed with the 6 channel, 48kHz sampling frequency (specified as "48k_6_channels_firmware.bin" at https://wiki.seeedstudio.com/ReSpeaker-USB-Mic-Array/). Here channel 0 is processed audio for ASR, channel 1-4 are the 4 microphones' raw data and channel 5 is playback（factory firmware).
+The hardware used is a Seeed ReSpeaker [USB Mic Array](https://www.seeedstudio.com/ReSpeaker-USB-Mic-Array-p-4247.html)[wiki here](https://wiki.seeedstudio.com/ReSpeaker-USB-Mic-Array/)) flashed with the 6 channel, 48kHz sampling frequency (specified as "48k_6_channels_firmware.bin". Here channel 0 is processed audio for ASR, channel 1-4 are the 4 microphones' raw data and channel 5 is playback（factory firmware).
 
 The data is organized as follows:
 
@@ -27,6 +29,8 @@ The data is organized as follows:
     * PolarPositionID_Distance_PolarAngle
       * UtteranceID_DoVAngle_MicChannel
   
+
+
 
 ## Reference
 Karan Ahuja, Andy Kong, Mayank Goel, and Chris Harrison. 2020. Direction-of-Voice (DoV) Estimation for Intuitive Speech Interaction with Smart Devices Ecosystems. In Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology (UIST '20). Association for Computing Machinery, New York, NY, USA, 1121–1131. DOI:https://doi.org/10.1145/3379337.3415588
