@@ -24,9 +24,9 @@ The hardware used is a Seeed ReSpeaker [USB Mic Array](https://www.seeedstudio.c
 
 The data is organized as follows:
 
-* ParticipantID/
-  * ParticipantID_RoomID_DevicePlacementID_SessionID/
-    * PolarPositionID_Distance_PolarAngle/
+* ParticipantID /
+  * ParticipantID_RoomID_DevicePlacementID_SessionID /
+    * PolarPositionID_Distance_PolarAngle /
       * UtteranceID_DoVAngle_MicChannel
   
 
