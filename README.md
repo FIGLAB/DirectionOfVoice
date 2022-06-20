@@ -1,7 +1,23 @@
-# Database for Direction-of-Voice (DoV) Estimation
-This is the research repository for Direction-of-Voice (DoV) Estimation for Intuitive Speech Interaction with Smart Devices Ecosystems (UIST 2020). It contains the the database. [More details can be found here](https://karan-ahuja.com/dov.html).
 
-Link to the dataset: https://www.dropbox.com/s/gtw7o0nj0h7j4gy/subjectrecording.zip
+# Research Code for Direction-of-Voice (DoV) Estimation
+This is the research repository for Direction-of-Voice (DoV) Estimation for Intuitive Speech Interaction with Smart Devices Ecosystems (UIST 2020). It contains the the featurization pipeline, analysis code and the demo code. [More details can be found here](https://karan-ahuja.com/dov.html).
+
+## Environment Setup
+
+Download the featurized dataset using the script in the `data/featurized_data/` folder.
+
+Setup the SRMR framework: https://github.com/jfsantos/SRMRpy
+
+## Python Notebook
+
+The python notebooks can be found in the `src` fodler.
+
+- `analysis.ipynb` : Run different conditions to replicate the various results in the paper. More details in the notebook.
+- `sample_prediction.ipynb` : Sample prediction on an example multi-channel wav file. 
+
+
+# Database for Direction-of-Voice (DoV) Estimation
+Link to the full raw dataset: https://www.dropbox.com/s/gtw7o0nj0h7j4gy/subjectrecording.zip
 
 ## Dataset Description
 
@@ -29,7 +45,6 @@ The data is organized as follows:
     * PolarPositionID_Distance_PolarAngle /
       * UtteranceID_DoVAngle_MicChannel
   
-
 
 
 ## Reference
