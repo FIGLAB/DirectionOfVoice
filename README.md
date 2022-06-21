@@ -71,7 +71,9 @@ location = {Virtual Event, USA},
 series = {UIST '20}
 }
 ```
+## License
 
+GPL v 2.0 License file present in repo. Please contact innovation@cmu.edu if you would like another license for your use.
 
 ## Disclaimer
 
